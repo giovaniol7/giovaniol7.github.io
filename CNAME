@@ -1,1 +1,5 @@
-clinicagiovani.com
+$ dig WWW.CLINICAGIOVANI.COM +nostats +nocomments +nocmd
+    > ;WWW.clinicagiovani.COM.                     IN      A
+    > WWW.clinicagiovani.COM.              3592    IN      CNAME   giovaniolL7.github.io.
+    > giovaniol7.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
